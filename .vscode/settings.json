@@ -1,0 +1,35 @@
+{
+    "powershell.pester.useLegacyCodeLens": false,
+    "files.encoding": "utf8",
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "all",
+    "files.eol": "\n",
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "files.associations": {
+        "*.json": "jsonc"
+    },
+    "powershell.debugging.createTemporaryIntegratedConsole": true,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+    },
+    "powershell.pester.debugOutputVerbosity": "Detailed",
+}
